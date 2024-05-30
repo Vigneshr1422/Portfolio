@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/c70fef7a3e.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <nav class="navigation">
+        <span>VIGNESH R</span>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Certificates</a></li>
+            <li><a href="#"></a></li>
+        </ul>
+        <div class="hamburger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>    
+    </nav>
+    <section class="home">
+        <div class="home-content">
+            <h3>Hi</h3>
+            <h1>I'm Vignesh R <br>a Frontend Developer</h1>
+            <p>Mastering the art of both web development and Java programming, I have a dynamic blend of skills in HTML, CSS, and JavaScript, I create visually stunning interfaces, while my Java expertise ensures rock-solid backend functionality. wield MongoDB  seamless data handling. Let's elevate your digital presence with innovation 🪄</p>
+        </div>
+        <div class="img-box">
+            <img src="Vignesh_no _margin.jpg" alt="Vignesh">
+        </div>
+    </section>
+    <!-- about -->
+    <div class="about">
+        <div class="container">
+            <div class="row">
+                <div class="about_col1">
+                    <img src="Vignesh_no _margin.jpg" alt="Vignesh">
+                </div>
+                <div class="about_col2">
+                    <h1 class="sub">About Me</h1>
+                 <p>   As a fresher I wield expertise in Java, backed by a solid grasp of programming 
+                    principles. With hands-on  MongoDB skills, I'm eager to make impactful 
+                    contributions to software development using HTML, CSS and Javascript       </p>             <div class="tab_title">
+                        <p class="skil" onclick="opentab('Skills')">Education</p>
+                        <p class="skil" onclick="opentab('Experience')">Skills</p>
+                        <p class="skil" onclick="opentab('Education')">Experience</p>
+                    </div>
+                    <div class="content" id="Skills">
+                        <ul>
+                            <li><span>SSLC - R.M.H.S Municipal High School Karaikudi </span><br>2017 - 2018 Percentage : 88.2%</li>
+                            <li><span>HSC - S.M.S.V Hr Sec School Karaikudi  </span><br>2019 - 2020 Percentage : 65%</li>
+                            <li><span>Bsc Physics Alagappa Govt Arts College Karaikudi</span><br>2020 - 2023 Percentage : 78%</li>
+                            <li><span>MCA M.Kumarasamy College of Engineering Karur </span><br>2023 - 2025 Percentage : 79.8%</li>
+
+                        </ul>   
+                    </div>
+                    <div class="content" id="Experience" style="display:none;">
+                        <ul>
+                            <li><span>JAVA</span><br>HTML5</li>
+                            <li><span>CSS</span><br>JAVASCRIPT</li>
+                            <li><span>MONGODB</span><br>C</li>
+                        </ul>   
+                    </div>
+                    <div class="content" id="Education" style="display:none;">
+                        <ul>
+                            <li><span>Zoho</span><br>IBM</li>
+                            <li><span>amazon</span><br>meta</li>
+                            <li><span>Google</span><br>Space X</li>
+                        </ul>   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------services -->
+    <div class="services"><br><br>
+        <div class="container">
+            <h1 class="sub" >Services</h1>
+            <div class="services_list">
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Web Development</h2>
+                   
+                    <p id="para">As a Web Development Intern completing an internship, I ensured cross-browser 
+                        compatibility, crafted responsive interfaces and optimized web content, and stayed 
+                        updated on emerging trends.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Java Development</h2>
+                   
+                    <p id="para"> I ensured the robustness and efficiency of Java applications, crafted modular and maintainable code, optimized system performance, and stayed updated on emerging Java technologies and best practices.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-palette"></i>
+                    <h2> Designing </h2>
+                    <p id="para"> I'm focused on ensuring that  cross-browser compatibility, crafting respone interfaces, and optimizinI remaig web content for performance. consistently updating my skills to deliver top-notch results. I'm dedicated to staying ahead in the dynamic field of web development.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- ----------------certificates -->
+ <div class="Certificate">
+    <h1 class="sub">Certificates</h1>
+<div class="wrapper">
+    <div class="container">
+        <input type="radio" name="slide" id="c1" checked>
+        <label for="c1" class="card">
+            <div class="row">
+                <div class="icon">1</div>
+                <div class="description">
+                
+                </div>
+            </div>
+        </label>
+        <input type="radio" name="slide" id="c2" >
+        <label for="c2" class="card">
+            <div class="row">
+                <div class="icon">2</div>
+                <div class="description">
+                   
+                </div>
+            </div>
+        </label>
+        <input type="radio" name="slide" id="c3" >
+        <label for="c3" class="card">
+            <div class="row">
+                <div class="icon">3</div>
+                <div class="description">
+                 
+                </div>
+            </div>
+        </label>
+        <input type="radio" name="slide" id="c4" >
+        <label for="c4" class="card">
+            <div class="row">
+                <div class="icon">4</div>
+                <div class="description">
+                    
+                </div>
+            </div>
+        </label>
+        <input type="radio" name="slide" id="c5" >
+        <label for="c5" class="card">
+            <div class="row">
+                <div class="icon">5</div>
+                <div class="description">
+                    
+                   
+                </div>
+            </div>
+        </label>
+        <input type="radio" name="slide" id="c6" >
+        <label for="c6" class="card">
+            <div class="row">
+                <div class="icon">6</div>
+                <div class="description">
+                   
+                    
+                </div>
+            </div>
+        </label>
+        <input type="radio" name="slide" id="c7" >
+        <label for="c7" class="card">
+            <div class="row">
+                <div class="icon">7</div>
+                <div class="description">
+                    
+                    
+                </div>
+            </div>
+        </label>
+        
+    </div>
+</div>
+
+</div>
+
+
+     
+    <script src="script.js"></script>
+</body>
+</html>

@@ -345,7 +345,7 @@ html{
 /* services */
 
 .services{
-    padding: 70px 100px;
+    padding: 200px 100px;
 
 }
 .services_list{
@@ -353,7 +353,7 @@ html{
     color: black;
     grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
     grid-gap: 70px;
-    margin-top: 160px;
+    margin-top: 110px;
 }
 .services_list div{
     background: #111f4d;
@@ -474,8 +474,8 @@ html{
     justify-content: center;
     flex-direction: column;
     overflow: hidden;
-    height: 30px;
-    width: 500px;
+    height: 70px;
+    width: 400px;
     opacity: 0;
     transform: translateY(30px);
     transition-delay: .3s;
@@ -485,7 +485,7 @@ html{
 
 .description p {
     color: #b0b0ba;
-    padding-top: 50px;
+    padding-top: 90px;
 }
 
 .description h4 {
@@ -531,7 +531,7 @@ input:checked + label .description {
    
 }
 .Certificatess{
-    padding: 170px 100px;
+    padding: 90px 100px;
 
 }
 @media (max-width: 768px) {

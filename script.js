@@ -16,12 +16,3 @@ function opentab(tabname) {
     event.currentTarget.classList.add('active');
 }
 
-//  active tab
-document.addEventListener('DOMContentLoaded', () => {
-    document.querySelector('.skil').classList.add('active');
-    document.querySelector('.content').style.display = 'block';
-});
-document.querySelector('.contact-form').addEventListener('submit', function(e) {
-    e.preventDefault();
-    alert('Message sent successfully!');
-});
